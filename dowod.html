@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const get = (key) => localStorage.getItem(key) || "Brak danych";
 
     const fields = {
-        "display-name": "name",
-        "display-surname": "surname",
-        "display-nationality": "nationality",
-        "display-birthDate": "birthDate",
-        "display-pesel": "pesel"
+        "display-name": "Wiktor",
+        "display-surname": "Koprucha",
+        "display-nationality": "Polska",
+        "display-birthDate": "21.01.2008",
+        "display-pesel": ""
     };
 
     Object.entries(fields).forEach(([elementId, storageKey]) => {
